@@ -5,3 +5,5 @@ Upon pressing the single day button, it will return time, description, temp, hum
 Upon pressing the 7 day button, it will return a scrollable textView containing the info for the full week
 
 Note: The api request is hard-coded for the latitude and longitude corresponding to Detroit, MI
+
+Note: If you wish to run this app, please add your own api key in MainActivity!
