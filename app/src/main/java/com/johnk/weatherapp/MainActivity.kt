@@ -39,7 +39,7 @@ class MainActivity : FragmentActivity(), MainFragment.ButtonListener {
         requestQueue = Volley.newRequestQueue(this)
         //create object request
         val jsonObjectRequest = JsonObjectRequest(
-                Request.Method.GET, "https://api.openweathermap.org/data/2.5/onecall?lat=42.3314&lon=-83.04575&appid=6d366ea393d3bfbc2e41ecbc49326408", null,
+                Request.Method.GET, "https://api.openweathermap.org/data/2.5/onecall?lat=42.3314&lon=-83.04575&appid= /* fill with your own api key */", null, 
                 Response.Listener { response ->
                     try {
                         var theList: JSONArray = response.getJSONArray("daily") //grabs the daily array object in the JSON list
