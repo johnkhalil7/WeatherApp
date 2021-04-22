@@ -6,4 +6,4 @@ Upon pressing the 7 day button, it will return a scrollable textView containing 
 
 Note: The api request is hard-coded for the latitude and longitude corresponding to Detroit, MI
 
-Note: If you wish to run this app, please add your own api key in MainActivity!
+Note: If you wish to run this app, please add your own api key in MainActivity! You can obtain one by making a free account here https://openweathermap.org/
